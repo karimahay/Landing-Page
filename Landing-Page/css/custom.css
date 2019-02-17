@@ -1,0 +1,463 @@
+/*reset des margin et padding pour tout les elements*/
+*{
+	padding: 0;
+	margin: 0;
+
+}
+body{
+  text-align: center;
+}
+
+/*------------------nav---------------------*/
+/*taille couleur et positionnement de la bare de navigation*/
+
+nav{
+		height: 50px;
+		width: 100%;
+		background-color: #222222;
+		}
+
+
+nav img{
+		margin-top: 15px;
+		margin-left: 30px;
+    float: left;
+		}
+
+
+.pe {
+    font-size: 14px;
+    font-family: 'Arvo';
+    margin-top: 18px;
+    float: right;
+    margin-right: 10%;
+    display: flex;
+    }
+
+
+/*Texte "WHO WE ARE" qui apparait a partir de 768px"*/
+#wh {
+  text-decoration: none;
+  margin-right: 60px;
+  color: #9D9D9D;
+  display: none;
+}
+
+
+/*Texte "GET INVOLVED" qui apparait a partir de 768px*/
+
+#inv{
+  text-decoration: none;
+   color: #9D9D9D;
+  display: none;
+}
+
+/*------------------#Home---------------------*/
+/*Ajout de l'image de fond pour la partie "#home"*/
+#home {    
+  background-size: cover;
+	background-image: url("hero-image.jpg");
+}
+
+
+/*classe qui englobe les elements contenus dans la div #home pour eviter qu'ils bougent*/
+.container { 
+    color:white;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+/*premier paragraphe*/
+.text1 {
+   font-size: 28px;
+  padding: 20px;
+  font-family: 'Arvo';
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+
+/*deuxieme paragraph*/
+.text2 {
+  text-align: center;
+  color: white;
+  line-height: 150%;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 30px;
+}
+
+.fa, .fas {
+  color: #222222;
+}
+
+
+/*placement et style du bouton*/
+.learnmore{
+    font-family: cursive;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: #D9534F;   
+     }
+
+
+/*parametre lors du survol du bouton avec la souris*/
+.learnmore:hover {
+    background-color: #D9534F; 
+  }
+
+
+/*parametre lors du click du bouton*/
+.learnmore:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6); 
+  }
+
+
+/*positionnement du bouton*/
+#bouton{
+  padding-bottom:20px; 
+}
+/*-----------------------------------------------------------*/
+
+
+
+/*--------------------------#who-----------------------------*/
+/*placement et parametres principaux de la div #who*/
+
+
+/*Enleve le soulignement de "MASSIVE Academy" du au href */
+#who a {
+  text-decoration: none;
+}
+
+
+#who{
+  text-align: center;
+  font-family:  'Arvo', courier, serif;
+  padding-bottom: 30px;
+  padding-top: 35px;
+}
+
+
+/*placement de l'image*/
+#who img{
+  padding-bottom: 20px; 
+}
+
+
+/*style du titre*/
+#who h2{
+  color: #e74c3c;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+/*couleur du lien contenu dans le paragraphe*/
+#who a {
+  color: #e74c3c;
+}
+
+
+/*placement et espacement des lignes du paragraphe*/
+#who p {
+  padding: 10px;
+  font-size: 13px;
+  margin-top: 30px;
+  line-height: 150%;
+  
+}
+/*style de la ligne orange*/
+#who hr {
+  margin-left: 45%;
+  text-align: center;
+  border-top: 1px solid #e74c3d;
+  width: 10%;;
+  margin-top: 1%;
+}
+
+/*---------------------------------------------*/
+
+/*Couleur grise de l'arriere plan */
+.background {
+  background-color: #F5F5F5;
+}
+
+
+/*---------------#get-involved-----------------*/
+
+/*parametres principaux de la div #get-involved*/
+#get-involved{
+  text-align: center;
+  font-family: "Arvo";
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  padding-top: 50px;
+}
+
+
+/*style du titre*/
+#get-involved h2{
+  color: #e74c3c;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+/*style de la ligne orange*/
+#get-involved hr{
+  margin-left: 45%;
+  border-top: 1px solid #e74c3d;
+  width: 10%;
+  margin-top: 1%; 
+}
+
+
+/* Premiére icone */
+.fa-user-alt {
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: #7F8281;
+    padding: 15px;
+}
+
+
+/*classe commune a students, educators et sponsors*/
+/*parametre generaux*/
+
+
+.wow{
+  text-align: center;
+  font-family: 'Arvo', courier, serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+/*style des titres*/
+.wow h3{
+  color: #e74c3c;
+  font-family: 'Arvo', courier, serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+/*style des paragraphes*/
+.wow p{
+  width: 50%;
+  margin-left: 25%;
+  font-size: 15px;
+  margin-top: 30px;
+  line-height: 150%;
+}
+
+
+/* Changement de couleur au survol de la souris  */
+.btn:hover {
+  background-color: #E5E5E5;
+}
+
+
+/*boutons*/
+.btn{
+  box-shadow: 1px #000;
+  background: white;
+  border: 1px solid #CECECE;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  color: #e74c3d;
+  font-family: 'Arvo', courier, serif;
+}
+
+
+/*Div qui englobe les 3 rubriques*/
+.flexbox {
+  margin-bottom:40px;
+}
+
+
+/*----------------ICONS---------------------*/
+  
+/* Disposition des Icons*/
+.students img {
+  
+
+    margin-bottom: 20px;
+}
+
+
+.educators img {
+    margin-top: -18px;
+    margin-bottom: 20px;
+}
+
+
+.sponsors img {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/*--------------footer-----------------*/
+
+/* Parametre du bas de la page */
+footer{
+  width: 100%;
+  height:170px;;
+  background-color: #e74c3d;
+}
+
+
+/*Image */
+footer img {
+  
+    MARGIN-LEFT: 10%;
+    margin-top: 100PX;
+    float: left
+  
+}
+
+/*--------------CODE POUR LE MENU ----------------*/
+
+.hamburger{
+  background:#222222;
+  position:absolute;
+  top:0;
+  right:2%;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:white;
+  border:0;
+  font-size:2em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:2%;
+  padding:7px 15px 0px 15px;
+  color:#e74c3d;
+  border:0;
+  font-size:4em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none; 
+}
+
+
+.menu{
+     font-family:'Arvo';
+     font-weight:bold;
+     font-size:1em; 
+     width:100%; 
+     background:#222222;  
+     position:absolute; 
+     text-align:center; 
+     font-size:12px;
+     margin-left: 0%;
+     margin-top: 50px;
+   }
+
+
+.menu ul {
+     margin: 0; 
+     padding: 0; 
+     list-style-type: none; 
+     list-style-image: none;}
+
+
+.menu li {
+     display: block;   
+     padding:15px 0 15px 0; 
+     border-bottom:#222222 1px solid;}
+
+
+.menu li:hover{
+     display: block;    
+     background:#ffffff; 
+     padding:15px 0 15px 0; 
+     border-bottom:#dddddd 1px solid;}
+
+
+.menu ul li a { 
+     text-decoration:none;  
+     margin: 0px; 
+     color:#666;}
+
+
+.menu a{
+     text-decoration:none; 
+     color:#666;}
+
+
+.menu a:hover{
+    text-decoration:none;
+    color:#666;}
+
+
+a{color:#336699;}
+
+
+#back-to-top{
+    position: fixed;
+    z-index: 99;
+    bottom: 4%;
+    right: 1%;
+}
+/*-------------- CODE POUR LE MENU ----------------*/
+
+
+/*--------------- MEDIA QUERIES ------------------*/
+/*Parametre pris en compte a a partir de 767px*/
+@media screen and (min-width: 767px) {
+
+#inv{
+  display: block
+}
+
+
+#wh { 
+  display: block;
+}
+
+
+.media{
+  display: none;
+}
+}
+
+/*Parametre pris en compte a a partir de 1199px*/
+@media screen and (min-width: 1099px) {
+
+.flexbox {
+  display: flex;
+    }
+
+
+.students img {
+  margin-top: -15px;
+  }
+
+  /*--------------- MEDIA QUERIES ------------------*/
